@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+   /* background: linear-gradient(0deg, #591ffa, #591ffa),
+                linear-gradient(0deg, #591ffa, #591ffa),
+                #000000; */
+    background-image: url(/assets/images/gameBG.png);
+    box-shadow: inset 0 0 0 2000px rgba(32, 2, 102, 0.3);
+    
+}
+
+
+
+.container{
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container header{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 10px #9797fe;
+}
+
+.container header span{
+    color: rgb(220, 20, 20);
+}
+
+.container .content{
+    margin: 1.3rem;
+}
+
+.container .word{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-right: -1rem;
+    text-shadow: 1px 1px 10px #9797fe;
+    word-wrap: break-word;
+}
+
+.content .detail{
+    margin: 25px 0;
+}
+
+.detail p{
+    margin-bottom: 10px;
+}
+
+.content input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #bbb;
+    padding: 0 15px;
+    box-shadow: inset 1px 1px 4px #ccc,
+                inset 1px 1px 4px #ccc;
+}
+
+.content .btn button{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(100% / 2 - 5px);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.content .btn .refresh-word{
+    background: #333;
+}
+
+.content .btn .check-word{
+    background: darkblue;
+}
+
+.content .btn .check-word:disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+button[name=BackBtn] {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: #9797fe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  button:hover{
+    background-color: darkblue;
+
+  }

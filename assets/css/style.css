@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 120px;
+    background: #591ffa;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+nav a:hover,
+nav a.active {
+    color: darkblue;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 50px;
+    color: darkblue;
+    font-weight: 700;
+
+}
+
+
+#home .contentHome {
+    text-align: center;
+}
+
+
+#home h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#home button {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: #591ffa;
+    border-radius: 10px;
+    color: white;
+    background: #591ffa;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#home button:hover {
+    background-color: #591ffa;
+
+}
+
+#mechanics .contentMechanics {
+    text-align:justify;
+
+}
+
+#mechanics h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkblue;
+}
+
+#mechanics p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#mechanics ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#mechanics li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #591ffa;
+    color: white;
+  }
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactIcons img {
+    width: 40px; 
+    height: 40px; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease-in-out; 
+    color:#050505;
+}
+
+.contactIcons img:hover {
+    transform: scale(1.2); 
+}
+
+section:nth-child(odd) {
+    margin-top: 25%;
+    background:#591ffa;
+ 
+}
+
+#content .contentContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContact img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: darkblue;
+    
+}
+
+.contentContact h5 {
+    text-align: center;
+}
